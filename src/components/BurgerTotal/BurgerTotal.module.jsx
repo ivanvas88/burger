@@ -11,7 +11,7 @@ function BurgerTotal() {
 			<div className={styles.price}>{'610'}
 				<img src={moneyPath} alt=''/>
 			</div>
-			<button className={styles.btn} type='button' onClick={() => setModalActive(true)}>{'Оформить заказ'}</button>
+			<button className={styles.btn} type='button' onClick={() => setModalActive(true)}>{'Оформить заказ важно'}</button>
 		</div>
 	)
 }
