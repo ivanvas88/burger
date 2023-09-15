@@ -1,0 +1,28 @@
+.app {
+    background: #131316;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 40px 0 20px 0;
+}
+
+.body {
+display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+section {
+    padding-bottom: 40px;
+}
+

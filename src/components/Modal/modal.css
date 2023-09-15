@@ -1,0 +1,173 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: scale(0);
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+
+/*Order*/
+
+.modal__content-order {
+    position: relative;
+    display: block;
+    width: 720px;
+    height: 718px;
+    padding: 120px 40px 120px 40px;
+
+    text-align: center;
+
+    border-radius: 40px;
+    border: 1px solid rgba(76, 76, 255, 0.20);
+    background: #1C1C21;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.04),
+    0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modal__close {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: 'Iceland', sans-serif;
+    font-size: 144px;
+    line-height: 120px;
+    color: #f2f2f3;
+    text-shadow: 0 0 16px rgba(51, 51, 255, .25), 0 0 8px rgba(51, 51, 255, .25), 0 4px 32px rgba(51, 51, 255, .5);
+
+    margin-bottom: 32px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #f2f2f3;
+    margin-bottom: 60px;
+}
+
+.image {
+    margin-bottom: 60px;
+}
+
+.status {
+    color: #f2f2f3;
+    margin-bottom: 8px;
+}
+
+.placetowait {
+    color: #8585AD;
+}
+
+
+/*Menu*/
+
+.modal__close-ingr {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content-ingredient {
+    position: relative;
+    display: none;
+    width: 720px;
+    height: 538px;
+    padding: 40px 40px 60px 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(76, 76, 255, 0.20);
+    background: #1C1C21;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.04),
+    0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modal-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.illustration {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.name {
+    color: #F2F2F3;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.structure {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.calories {
+    flex: 0 0 20%;
+}
+
+.protein {
+    flex: 0 0 20%;
+}
+
+.fats {
+    flex: 0 0 20%;
+}
+
+.carbohydrates {
+    flex: 0 0 20%;
+}
+
+.structure-title {
+    color: #8585AD;
+    /*text-align: center;*/
+    /* desktop/text */
+    font-family: JetBrains Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.structure-numbers {
+    color: #8585AD;
+    font-family: 'Iceland', sans-serif;
+    font-size: 28px;
+    line-height: 24px;
+}
+
