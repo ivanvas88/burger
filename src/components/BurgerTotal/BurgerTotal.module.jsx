@@ -17,3 +17,7 @@ function BurgerTotal() {
 }
 
 export default BurgerTotal;
+
+// git add .
+// git commit -m'some commit'
+// git push
