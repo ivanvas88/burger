@@ -9,18 +9,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 
-    transform: scale(0);
+    /*transform: scale(0);*/
 }
 
-.modal.active {
-    transform: scale(1);
-}
+/*.modal.active {*/
+/*    transform: scale(1);*/
+/*}*/
 
 
 /*Order*/
 
-.modal__content-order {
+.modal__content {
     position: relative;
     display: block;
     width: 720px;
@@ -49,6 +50,10 @@
     justify-content: center;
     align-items: center;
 }
+.modal__close:hover {
+    cursor: pointer;
+}
+
 
 .header {
     font-family: 'Iceland', sans-serif;

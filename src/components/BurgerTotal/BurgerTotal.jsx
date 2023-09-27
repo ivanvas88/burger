@@ -1,17 +1,18 @@
 import React, {useState} from "react";
 import styles from './burger-total.module.css'
 import moneyPath from './images/money-result.svg'
+// import {state, setState} from '../app/App'
 
-function BurgerTotal() {
-	
-	const [modalActive, setModalActive] = useState(true)
+const BurgerTotal = ({btnOpenModal}) => {
+
+	// const [modalActive, setModalActive] = useState(true)
 	
 	return (
 		<div className={styles.block}>
 			<div className={styles.price}>{'610'}
 				<img src={moneyPath} alt=''/>
 			</div>
-			<button className={styles.btn} type='button' onClick={() => setModalActive(true)}>{'Оформить заказ важно'}</button>
+			<button onClick={() => btnOpenModal()} className={styles.btn} type='button'>{'Оформить заказ'}</button>
 		</div>
 	)
 }

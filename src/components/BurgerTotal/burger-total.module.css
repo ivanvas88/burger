@@ -8,7 +8,7 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: Iceland;
+    font-family: 'Iceland', sans-serif;
     font-size: 48px;
     line-height: 64px;
 }

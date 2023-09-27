@@ -1,41 +1,28 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-/*.card {*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    gap: 8px;*/
-/*    max-width: 272px;*/
-/*    padding: 0 3px;*/
-/*}*/
-/*.image {*/
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 272px;
+    padding: 0 3px;
+}
+.image {
 
-/*}*/
-/*.price {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    text-align: center;*/
-/*    gap: 8px;*/
-/*    font-size: 28px;*/
-/*    line-height: 24px;*/
-/*    font-family: 'Iceland', sans-serif;*/
-/*}*/
-/*.name {*/
-/*    text-align: center;*/
-/*    line-height: 24px;*/
-/*    min-height: 48px;*/
-/*}*/
-/*.count {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
-/*    font-family: 'Iceland', sans-serif;*/
-/*    font-size: 28px;*/
-/*    line-height: 28px;*/
-/*    padding: 0px 8px;*/
-/*    border-radius: 15px;*/
-/*    background-color: #4C4CFF;*/
-/*}*/
+}
+.price {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    font-size: 28px;
+    line-height: 24px;
+    font-family: 'Iceland', sans-serif;
+}
+.name {
+    text-align: center;
+    line-height: 24px;
+    min-height: 48px;
+}

@@ -1,0 +1,13 @@
+.count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Iceland', sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0px 8px;
+    border-radius: 15px;
+    background-color: #4C4CFF;
+}
